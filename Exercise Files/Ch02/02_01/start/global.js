@@ -17,3 +17,6 @@ server.listen(port, hostname, () => {
 
 // We set the Content-Type header
 res.setHeader('Content-Type', 'text/plain');
+
+//  we close the response, adding the content as an argument to end()
+res.end('Hello World\n');
