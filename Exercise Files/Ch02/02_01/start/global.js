@@ -28,6 +28,7 @@ type User = {
   age: number;
 };
 
+//  Later we utilize this newly created type to create function isAdult that accepts one argument of type User and returns boolean.
 function isAdult(user: User): boolean {
   return user.age >= 18;
 }
