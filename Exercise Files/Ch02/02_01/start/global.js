@@ -22,6 +22,7 @@ res.setHeader('Content-Type', 'text/plain');
 res.end('Hello World\n');
 
 // TypeScript code
+// The first part (with the type keyword) is responsible for declaring our custom object type representing users
 type User = {
   name: string;
   age: number;
